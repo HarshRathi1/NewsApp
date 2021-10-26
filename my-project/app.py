@@ -13,6 +13,6 @@ def index():
     }
     return render_template("index.html",case=cases)
 if __name__=="__main__":
-    app.run(debug=False,host='0.0.0.0')
+    app.run(debug=True)
 
 #https://newsapi.org/docs/endpoints/top-headlines
